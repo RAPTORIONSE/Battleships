@@ -1,0 +1,80 @@
+-Setup Snapping
+When droping selected pieces do they snap into the grid?
+
+In the setup phase.
+1. Hover mouse over a ship.
+2. Click and hold left mouse button.
+3. Drag mouse over to the grid and align the piece with the grid.
+4. Release left mouse button.
+
+The piece should snap to the grid you aligned it to.
+
+-Setup Snapping directions
+When droping selected pieces do they snap into the grid?
+
+In the setup phase.
+1. Hover mouse over a ship.
+2. Click and hold left mouse button.
+3. Drag mouse over to the grid and align the piece with the grid.
+4. Drag mouse slightly less then half a grid in any direction.
+5. Release left mouse button.
+
+The piece should snap to the grid you aligned it to.
+
+-Setup Snapping directions rotated
+When droping selected pieces that are rotated do they snap into the grid?
+
+In the setup phase.
+1. Hover mouse over a ship.
+2. Click and hold left mouse button.
+3. Press 'R' on the keyboard.
+3. Drag mouse over to the grid and align the piece with the grid.
+4. Drag mouse slightly less then half a grid in any direction.
+5. Release left mouse button.
+
+The piece should snap to the grid you aligned it to and remain rotated by 90 degrees.
+
+-Setup Randomize
+Does the Randomize method function?
+
+In the setup phase.
+1. Click the randomize button.
+
+All ships should be placed on the grid without overlapping.
+
+-Fire aiming
+Does the fire grid highlight the grid bellow the mouse?
+
+In fire phase.
+1. Hover mouse over any grid in the fire grid.
+
+The grid should display a lighter colour then its neighbours.
+
+-fire shooting
+When clicking a grid in the fire grid does the grid show an impact marker, and does it play an sfx corresponing to the marker?
+
+In fire phase.
+1. Hover mouse over any grid in the fire grid.
+2. Click left mouse button.
+
+Game should show a hitmarker either a circle or cross. A firing sound should play immediately and after a short delay a splash or impact sound should play.
+
+-fire sinking
+When firing at a ship and all its compartments/grids are hit does it revleal itself to the otherplayers fire grid, and does it play a sinking sound? 
+
+In fire phase.
+1. Fire at grids until a ship is found, indicated by a hitmarker (cross).
+2. Fire at the neighbouring grids to identify what direction the ship is facing.
+3. Fire at the neighbouring grids until the ship is surrounded by missmarkers (circles)
+
+Did the ship appear when all its grids had been hit, and did it play a sinking sound?
+
+-fire winning
+When the last hostile ship sinks does the game reveal the correct winner?
+
+In fire phase.
+1. Fire at the hostile fleet unitl all ships are sunk.
+2. Restart game with the button.
+3. As the opposite player, Fire at the hostile fleet unitl all ships are sunk.
+
+The game should revieal a victory screen when all ships are sunk, the score should increment for the player that survived. The score at the end of the test shoudl be 1 / 1.
